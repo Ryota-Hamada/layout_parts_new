@@ -7,8 +7,6 @@
   margin: 0 auto;
   padding: 20px;
   width: 500px;
-  font-size: 16px;
-  background: #FFF;
   border: solid 5px #222;
   border-radius: 30px;
 }
@@ -16,21 +14,19 @@
 .content:before {
   content: "";
   position: absolute;
-  bottom: -30px;
+  bottom: -45px;
   left: 30px;
-  border: 15px solid transparent;
-  border-top: 15px solid #FFF;
-  z-index: 2;
+  border: 20px solid transparent;
+  border-top-color: #222;
 }
 
 .content:after {
   content: "";
   position: absolute;
-  bottom: -46px;
-  left: 22px;
-  border: 23px solid transparent;
-  border-top: 23px solid #222;
-  z-index: 1;
+  bottom: -40px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top-color: #fff;
 }
 
 .text {
